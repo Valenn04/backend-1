@@ -41,11 +41,9 @@ const libros = [
 const usuario1 = new Usuario('Valentin', 'Garcia', libros, ['perro', 'gato']);
 
 console.log(usuario1.getFullName());
-
 console.log(usuario1.getBooksNames());
 usuario1.addBook('El Principito', 'Antoine de Saint-Exupéry');
 console.log(usuario1.getBooksNames());
-
 console.log(usuario1.countPets());
 usuario1.addPet('Hamster');
 console.log(usuario1.countPets());
